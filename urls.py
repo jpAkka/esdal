@@ -8,9 +8,9 @@ def start(manual_input):
         while(True):
             
             sequence_number= 'sequence_num='+str(sequence_number_count)
-            # print("############ SECUENCE NUMBER #################")
-            # print(sequence_number)
-            # print("############################################")
+            print("############ SECUENCE NUMBER #################")
+            print(sequence_number)
+            print("############################################")
             request_url = '/api/assessment/v1/?'+sequence_number
 
             try:
